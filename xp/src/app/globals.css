@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.screen{
+  border-radius: 90px;
+}
+
+.inner_screen{
+  border-radius: 65px;
+  box-shadow: inset rgba(224, 217, 217, 0.363) 12px 13px 17px,rgba(149, 144, 144, 0.84) -8px -8px 2px,
+  rgba(171, 165, 165, 0.66) 6px -6px 2px,rgba(171, 165, 165, 0.66) 6px 6px 30px;
+}
+.stand_vertical{
+  box-shadow:inset rgba(126, 124, 124, 0.45) 1px 10px 15px 3px;
+  border-radius: 0px 0px 10px 10px; 
+}
+
+.btm_stand{
+  border-radius: 20px;
+transform: skewX(-20deg);
+z-index: -1;
+box-shadow: rgba(193, 187, 187, 0.753) 3px 3px 4px;
+
+}
+.inner_btm_stand{
+  border-radius: 30px;
+box-shadow:inset rgba(94, 92, 92, 0.548) 50px -50px 2px;
+}
