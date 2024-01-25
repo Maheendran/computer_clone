@@ -1,8 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main_parent{
+  background-image: linear-gradient(to right, #75726c 0%, #959c96 100%);
+
+}
 .screen{
   border-radius: 90px;
+  background-color: #e7e6e1;
+  box-shadow: inset rgba(255, 255, 255, 0.596) 20px 30px 30px 20px,inset rgba(138, 134, 134, 0.185) -20px -30px 30px 20px;;
 }
 
 .inner_screen{
@@ -11,18 +18,106 @@
   rgba(171, 165, 165, 0.66) 6px -6px 2px,rgba(171, 165, 165, 0.66) 6px 6px 30px;
 }
 .stand_vertical{
-  box-shadow:inset rgba(126, 124, 124, 0.45) 1px 10px 15px 3px;
+  box-shadow:inset rgba(255, 255, 255, 0.315) 4px 10px 10px 3px,
+  inset rgba(138, 135, 135, 0.37) -10px -1px 10px ,
+
+   rgba(121, 121, 121, 0.164) 5px 0px 5px;
   border-radius: 0px 0px 10px 10px; 
+  background-color: #e7e6e1;
+
 }
+
 
 .btm_stand{
   border-radius: 20px;
-transform: skewX(-20deg);
+transform: skewX(-10deg);
 z-index: -1;
-box-shadow: rgba(193, 187, 187, 0.753) 3px 3px 4px;
+background-color: #e7e6e1;
+box-shadow: rgba(193, 187, 187, 0.753) 3px 3px 4px,inset rgba(235, 233, 233, 0.781) 10px 2px 10px,
+inset rgba(61, 57, 57, 0.212) -10px -10px 10px;
 
 }
-.inner_btm_stand{
-  border-radius: 30px;
-box-shadow:inset rgba(94, 92, 92, 0.548) 50px -50px 2px;
+
+/* .btm_stand ::after{
+  content: "";
+width: 100%;
+height: 10vh;
+
+position: absolute;
+bottom: 0;
+top: 0;
+margin: auto;
+border-radius: 15px;
+box-shadow: rgba(193, 187, 187, 0.753) 3px 3px 4px,inset rgba(235, 233, 233, 0.596) 8px 1px 13px,
+inset rgba(61, 57, 57, 0.212) -10px -10px 13px;
+} */
+
+/* ============================= */
+
+.cpu_main{
+  border-radius: 20px ;
+  background-color: #e7e6e1;
+  box-shadow: inset rgba(255, 255, 255, 0.753) 3px 3px 3px 4px,
+  inset rgba(138, 134, 134, 0.185) -3px -3px 3px 4px;
+}
+
+.inner_cpu{
+  border-radius: 20px ;
+  box-shadow:inset rgba(19, 18, 18, 0.205)  10px 10px 10px, rgba(255, 255, 255, 0.959)  7px 0px 5px, rgba(255, 255, 255, 0.959)  -7px 0px 5px;
+  overflow: hidden;
+inset: 0;
+margin: auto;
+position: absolute;
+border: 2px solid rgba(128, 128, 128, 0.452);
+}
+
+.left_lines{
+  display: flex;
+  flex-direction: column;
+
+  left: 0;
+
+  top: -30rem;
+  margin: auto;
+  transform: rotate(50deg);
+
+}
+.right_lines{
+  display: flex;
+  flex-direction: column;
+  transform: rotate(-50deg);
+  left: -50rem;
+bottom: 0;
+  margin: auto;
+}
+.right_lines > div{
+  width: 100vw;
+  height: 1px;
+  border: 1px solid grey;
+}
+.left_lines > div{
+
+  width: 100vw;
+  height: 1px;
+  border: 1px solid grey;
+}
+
+.top_cpu_first{
+  border-radius: 50px 50px 10px 10px;
+  background-color: #e7e6e1;
+  display: flex;
+  justify-content: center;
+}
+.top_cpu_second{
+  border-radius: 10px 10px 50px 50px;
+  background-color: #e7e6e1;
+  display: flex;
+  justify-content: center;
+}
+
+.cd_drive{
+ margin: auto;
+ border-radius: 10px 10px 40px 40px;
+background-color: rgba(230, 225, 225, 0.534);
+box-shadow: rgba(128, 128, 128, 0.295) 2px 3px 5px,inset rgb(238, 235, 235) 10px 10px 5px;
 }

@@ -2,10 +2,12 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div className='Parent_page w-full h-screen flex justify-between'>
+    <>
+    
+        <div className='main_parent w-full h-screen flex   '>
 
 {/* monitor============= */}
-<div className='w-[65%] h-screen  bg-slate-100 z-10 absolute inset-0 '>
+<div className='w-[65%] h-screen relative   z-10 '>
      
      <div className="screen w-[75%] h-[75vh] mt-3  bg-slate-200 left-0 right-0 mx-auto relative">
 
@@ -26,15 +28,462 @@ const Main = () => {
 
 </div>
 {/* cpu-============== */}
+    
+    <div className='w-[35%] h-screen    relative '>
 
-<div className='w-[35%] h-screen border  bg-slate-400'>
+
+<div className="cpu_main  w-[75%] h-[90vh] border p-4  mx-auto absolute bottom-0 left-0 right-0 ">
+
+
+<div className="inner_cpu w-[90%] h-[95%] m-auto ">
+
+<div className='left_lines w-[90%] z-0 h-screen absolute flex gap-1 over'>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+
+<div className='right_lines w-[100vw] z-0 h-screen absolute flex gap-1 over'>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+
+{/* -==== */}
+<div className='absolute z-50 w-full h-full' >
+
+  <div className='top_cpu w-full h-[35vh] z-50 flex  flex-col gap-2 justify-center'>
+  <div className='top_cpu_first w-[90%] h-[45%]  flex justify-center  mx-auto'>
+
+
+<div className='w-[80%] h-[7vh] cd_drive text-center flex  '>
+  <p className='m-auto text-slate-500'>DVD</p>
+</div>
+
+  </div>    
+  <div  className='top_cpu_second w-[90%] h-[45%]   bg-slate-200 mx-auto'>
+    
+  <div className='w-[80%] h-[7vh] cd_drive text-center flex  '>
+  <p className='m-auto text-slate-500'>DVD</p>
+</div>
+  </div>
+</div>
+
+{/* <div className='middle_cpu w-full h-[30vh] bg-green-300'></div>
+<div className='bottm_cpu w-full h-[25vh] bg-blue-300'></div> */}
+
+</div>
 
 </div>
 
 
-
-
+</div>
+</div>
     </div>
+
+
+    </>
+
+
+
+
+
+
+
   )
 }
 
