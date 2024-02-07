@@ -28,7 +28,9 @@ const Main = () => {
 
 </div>
 {/* cpu-============== */}
-    
+    <div className=''>
+       
+    </div>
     <div className='w-[35%] h-screen    relative '>
 
 
